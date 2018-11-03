@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>风清云淡</title>
     <style>
+    *{margin:0;padding:0}
+    li{list-style:none}
+    img{vertical-align:top;border:none}
     .bodyBackGround{
         background-color: rgb(231,197,165);
         margin:0;
         color:rgb(236,126,65);
+    }
+    .mainContainer{
+        margin-top: 0.5em;
     }
     .title{
         font-size: 2em;
@@ -20,6 +26,74 @@
         line-height: 30px;
         margin-top: 0.5em;
     }
+    .navigation-ul{
+        margin:0 auto;
+        width:60%;
+        white-space: nowrap;
+    }
+    .navigation-ul li{
+        text-align: center;
+        display: inline-block;
+        width: 25%;
+    }
+    .mainLeft{
+        width:19.4%;
+        margin-right: 0.6%;
+        height: 800px;
+        float: left;
+        background-color: rgb(254,254,242);        
+    }
+    .mainCenter{
+        width:60%;
+        float: left;
+        background-color: rgb(254,254,242);        
+    }
+    .mainRight{
+        margin-left: 0.6%;
+        width:19.4%;
+        height: 800px;
+        float: left;
+        background-color: rgb(254,254,242);        
+    }
+    .footer{
+        text-align: center;
+        line-height: 30px;
+        height: 30px;
+    }
+    .clearfix:after{
+        visibility:hidden;
+        display:block;
+        font-size:0;
+        content: " ";
+        clear:both;
+        height:0;
+    }
+    .articleList{
+        background-color: rgb(254,254,242);        
+        width: 98%;
+        margin:0.5em;
+        height: 200px;
+        border:slategrey solid 1px;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .img{
+        width: 38%;
+        height: 100%;
+    }
+    .img img{
+        width:100%;
+        height: 100%;
+    }
+    .articleText{
+        padding-left: 0.5em;
+        width: 60%;
+        height: 100%;
+    }
     </style>
 </head>
 <body class="bodyBackGround">
@@ -28,13 +102,71 @@
            风清云淡的博客
        </div>
        <div class='navigation'>
-        风清云淡的博客
+           <ul class='navigation-ul'>
+               <li><a>首页</a></li>
+               <li><a>学习</a></li>
+               <li><a>生活</a></li>
+               <li><a>随笔</a></li>
+           </ul>
        </div>
     </header>
-    <main>
+    <main class='mainContainer clearfix'>
+        <div class='mainLeft'>
 
+        </div>
+        <div class='mainCenter'>
+            <div class='articleList clearfix'>
+                <div class="fl img">
+                    <img src="./sex1810102151.jpg">
+                </div>
+                <div class="articleText fl">
+                    <p class="title">khinj</p>
+                    <p class="text-contss">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis vitae ut error voluptates exercitationem magnam deserunt ipsum nemo totam soluta iste sit obcaecati cum, tempore maiores aut at a!</p>
+                </div>
+            </div>
+            <div class='articleList clearfix'>
+                    <div class="fl img">
+                        <img src="./sex1810102151.jpg">
+                    </div>
+                    <div class="articleText fl">
+                        <p class="title">khinj</p>
+                        <p class="text-contss">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis vitae ut error voluptates exercitationem magnam deserunt ipsum nemo totam soluta iste sit obcaecati cum, tempore maiores aut at a!</p>
+                    </div>
+            </div>
+            <div class='articleList clearfix'>
+                    <div class="fl img">
+                        <img src="./sex1810102151.jpg">
+                    </div>
+                    <div class="articleText fl">
+                        <p class="title">khinj</p>
+                        <p class="text-contss">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis vitae ut error voluptates exercitationem magnam deserunt ipsum nemo totam soluta iste sit obcaecati cum, tempore maiores aut at a!</p>
+                    </div>
+            </div>
+            <div class='articleList clearfix'>
+                    <div class="fl img">
+                        <img src="./sex1810102151.jpg">
+                    </div>
+                    <div class="articleText fl">
+                        <p class="title">khinj</p>
+                        <p class="text-contss">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis vitae ut error voluptates exercitationem magnam deserunt ipsum nemo totam soluta iste sit obcaecati cum, tempore maiores aut at a!</p>
+                    </div>
+            </div>
+            <div class='articleList clearfix'>
+                    <div class="fl img">
+                        <img src="./sex1810102151.jpg">
+                    </div>
+                    <div class="articleText fl">
+                        <p class="title">khinj</p>
+                        <p class="text-contss">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis vitae ut error voluptates exercitationem magnam deserunt ipsum nemo totam soluta iste sit obcaecati cum, tempore maiores aut at a!</p>
+                    </div>
+            </div>
+        </div>
+        <div class='mainRight'>
+
+        </div>
     </main>
-    <footer>
+    <footer class='footer'>
+        @copyRight 2018 风清云淡
     </footer>
 </body>
 </html>
